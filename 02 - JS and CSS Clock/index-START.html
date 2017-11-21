@@ -73,7 +73,11 @@ const hourHand = document.querySelector(".hour-hand");
 
 function setDate() {
   const now = new Date();
-  console.log(now);
+  console.log("now.seconds", now.getSeconds);
+  console.log("now.minutes", now.getMinutes);
+  console.log("now.hours", now.getHours);
+
+  const seconds = now.seconds;
 }
 
 setDate();
